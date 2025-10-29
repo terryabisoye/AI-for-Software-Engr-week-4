@@ -1,3 +1,5 @@
 selenium==4.27.1
 streamlit
 webdriver-manager
+chromium
+chromium-driver

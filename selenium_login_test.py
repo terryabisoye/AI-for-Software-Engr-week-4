@@ -1,4 +1,4 @@
-import selenium
+
 import argparse
 import time
 from selenium import webdriver
@@ -66,5 +66,6 @@ if __name__ == "__main__":
     print("Running invalid-credentials test...")
     bad = run_login_test(args.base_url, args.invalid_user, args.invalid_pass, screenshot_prefix="login_invalid")
     print(bad)
+
 
 

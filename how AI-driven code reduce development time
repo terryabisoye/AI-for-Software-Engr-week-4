@@ -1,0 +1,19 @@
+1. Auto-complete & snippets: Tools like GitHub Copilot offer contextual suggestions and boiler plate so you can write fewer lines manually.
+2. Faster prototyping: They let you quickly sketch features, experiments with APIs and generate sample usage.
+3. Learning accelerator: They can shpw idiomatic ways to use unfamiliar libraries.
+
+LIMITATIONS
+
+1. Incorrect or insecure code:Sugestions may compile but be logically wrong. leaks secrets, or include insecure patterns.
+2. Bias and scope: Tools reflect data they were trained on and may suggest outdated libraries or baised.
+
+Question 2 Supervised and Unsupervised Learning
+
+1. Supervised learning:Uses label historical data, it learns mapping from features lines of code metrics, churn, complexity to labels.
+2. Unsupervised learning: Finds anomalies or clusters without labels, it can surface unknown bug patterns or rare risky files and may also have many false positives and harder to ebvaluate.
+
+    Question 3 Why bais mitigation matters
+
+    Personalization models decide what content or UI a user sees. if training data underrepresents certain groups,the model can systematically disadvantage them.
+
+

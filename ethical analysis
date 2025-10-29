@@ -1,0 +1,25 @@
+Potential biases:
+
+
+Synthetic-label bias: We created priority labels from mean radius. In real deployment, mapping medical (or other operational) signals to priority can reflect business bias — e.g., favoring teams or cases that are easier to measure.
+
+
+Underrepresented groups: If some teams/issues are underrepresented in historical data, the model may systematically mis-prioritize them.
+
+
+Feature leakage & proxy features: Certain features might proxy for demographic or organizational attributes (e.g., repository name, owner) and introduce unfairness.
+
+
+How fairness tools help (IBM AI Fairness 360 example):
+
+
+Bias detection: AIF360 provides metrics to check disparate impact, equal opportunity, and other measures across groups.
+
+
+Preprocessing fixes: Reweighing or disparate-impact-remover to rebalance training data.
+
+
+In-processing & post-processing: Algorithms like adversarial debiasing (in-processing) or equalized odds post-processing adjust model predictions to meet fairness constraints.
+
+
+Monitoring: Integrate fairness checks in CI to flag drift in metrics by group over time

@@ -1,0 +1,2 @@
+AI code vs Manual
+the AI code dose not handle type  inconstitencies eg mixing strings and numbers. but the manual implementation adds explicit validation, normalizes inputs. and uses a safe key wrapper to handle None values predictably. that extra handling adds minor overhead. for real project the manual version is safer and more maintainable for quick scripts.
